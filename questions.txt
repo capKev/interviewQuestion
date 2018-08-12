@@ -1,0 +1,40 @@
+Write the unit test and the code for the following problems
+# Check it into your github and provide the link for the solution.
+# You can use a public git
+# You can use pyunit or doctest – Whichever you are comfortable with.
+# The input can vary. Your test case should be able to pass different inputs and your code should handle that.
+
+Given you have temperature data from two sensors, calculate the average temperature for each one second duration across both sensors.
+       Constraints
+Data from both sensors would not be sent at the same time.
+The duration of the average should be configurable.
+Assume input is in this format (Comma Separated Values)
+Sensor Id,Timestamp in milliseconds from Epoch, Temperature
+Example:
+Input Data
+1,10000,40
+1,10002,45
+1,11015,50
+2,10005,42
+2,11051,45
+2,12064,42
+2,13161,42
+
+
+Output Data (if configuration is 1 second)
+10000-10999: 42.33
+11000-11999: 47.5
+12000-12999: 42
+13000-13999: 42
+
+# From a test scenario standpoint, cover the positive and negative tests.
+
+Seating Arrangement. You have n students and n chairs in an exam hall. n/3 students are writing Maths,
+n/3 are writing physics and n/3 are writing chemistry. The n chairs are arranged in two rows, with n/2 in each row.
+Write an algorithm to make sure no two maths students sit either next/in front/behind of another maths students.
+
+# Assume that the number of students are always divisible by 3.
+# Your unit test should validate the final arrangement.
+# Your test should be able to validate the problem statement.
+
+# Use only standard python modules.

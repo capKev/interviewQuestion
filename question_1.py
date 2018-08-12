@@ -1,6 +1,8 @@
 import math
 import functools
 
+
+
 # second manipulation
 second_configuration = int(input('input your configuration : '))*1000
 
